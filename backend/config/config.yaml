@@ -1,0 +1,13 @@
+app:
+  name: goblog
+  port: :8080
+
+database:
+  dsn: root:123456@tcp(127.0.0.1:3306)/goblog?charset=utf8mb4&parseTime=True&loc=Local
+  max_idle_conns: 11
+  max_open_conns: 114
+
+redis:
+  addr: localhost:6379
+  db: 0
+  password: ""
